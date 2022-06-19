@@ -1,5 +1,5 @@
 """
-ASGI config for I4G004202H2F project.
+ASGI config for biyiemmy project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'I4G004202H2F.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'biyiemmy.settings')
 
 application = get_asgi_application()
